@@ -1,0 +1,8 @@
+  float t = Mathf.InverseLerp(250, 800, 600); 
+            Debug.Log(t);
+          //0.6363636
+            float a = Mathf.Lerp(0, 90, t);
+            Debug.Log(a);
+          //57.27273
+          
+find the interpolation of a given number (0-1) within other numbers and transfer this relation between other numbers
